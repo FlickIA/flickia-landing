@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Flick.IA — Automatizá tu agenda con IA</title>
+    <meta name="description" content="Automatizá la agenda de turnos con IA para clínicas estéticas. Disponibilidad 24/7, confirmaciones automáticas y menos ausencias." />
+    <meta property="og:title" content="Flick.IA — Automatizá tu agenda con IA" />
+    <meta property="og:description" content="Atendé más clientes sin aumentar tu equipo de trabajo." />
+    <meta property="og:type" content="website" />
+    <meta name="theme-color" content="#00C2CB" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Poppins:wght@600;700&display=swap" rel="stylesheet">
+
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><rect rx='14' width='64' height='64' fill='%2300C2CB'/><path d='M36 10 20 34h12l-4 20 16-24H32z' fill='white'/></svg>">
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="container header">
+      <a href="#" class="brand">
+        <span class="logo" aria-hidden="true">
+          <!-- Logo SVG -->
+          <svg width="28" height="28" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Flick.IA">
+            <rect rx="14" width="64" height="64" fill="#00C2CB"/>
+            <path d="M36 10 20 34h12l-4 20 16-24H32z" fill="#fff"/>
+          </svg>
+        </span>
+        <span class="brand-text">Flick<span class="dot-ia">.IA</span></span>
+      </a>
+      <button class="menu-btn" id="menuBtn" aria-label="Abrir menú">☰</button>
+      <nav id="nav" class="nav">
+        <a href="#como-funciona">Cómo Funciona</a>
+        <a href="#precios">Planes</a>
+        <a href="#contacto">Contacto</a>
+        <a class="btn btn-primary" href="https://wa.me/5491112345678?text=Quiero%20una%20demo%20de%20Flick.IA" target="_blank" rel="noopener">Solicitar Demo</a>
+      </nav>
+    </header>
+
+    <main>
+      <!-- Hero -->
+      <section class="hero container">
+        <div class="hero-copy">
+          <h1>Automatizá tu agenda de turnos con <span class="brandish">Inteligencia Artificial</span></h1>
+          <p>Atendé más clientes sin aumentar tu equipo de trabajo.</p>
+          <div class="cta">
+            <a class="btn btn-primary" href="https://wa.me/5491112345678?text=Quiero%20una%20demo%20de%20Flick.IA" target="_blank" rel="noopener">Solicitar Demo</a>
+            <a class="btn btn-ghost" href="#como-funciona">Ver cómo funciona</a>
+          </div>
+        </div>
+        <div class="hero-art">
+          <div class="phone">
+            <div class="status"></div>
+            <div class="chat">
+              <div class="bubble left">Hola 👋 ¿Puedo sacar un turno?</div>
+              <div class="bubble right">¡Claro! Tengo hoy 17:30 o 18:00. ¿Cuál preferís?</div>
+              <div class="bubble left">18:00</div>
+              <div class="bubble right">Listo ✅ Te agendé para hoy 18:00. Te llega recordatorio automático.</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Beneficios -->
+      <section class="benefits container" aria-label="Beneficios">
+        <article class="card">
+          <div class="icon">🕒</div>
+          <h3>24/7 Disponible</h3>
+          <p>Nunca más perder un cliente por horario.</p>
+        </article>
+        <article class="card">
+          <div class="icon">✔️</div>
+          <h3>Confirmaciones automáticas</h3>
+          <p>Menos ausencias y mejor organización.</p>
+        </article>
+        <article class="card">
+          <div class="icon">📈</div>
+          <h3>Escalable</h3>
+          <p>Desde 10 a 1.000+ turnos por mes.</p>
+        </article>
+      </section>
+
+      <!-- Cómo funciona -->
+      <section id="como-funciona" class="how container">
+        <h2>Cómo funciona</h2>
+        <ol class="steps">
+          <li><strong>El cliente</strong> escribe por WhatsApp o Instagram.</li>
+          <li><strong>El chatbot</strong> ofrece horarios disponibles.</li>
+          <li><strong>Listo:</strong> turno agendado y recordatorio automático.</li>
+        </ol>
+      </section>
+
+      <!-- Planes -->
+      <section id="precios" class="pricing container">
+        <h2>Planes y precios</h2>
+        <div class="grid">
+          <article class="price-card">
+            <h3>Básico</h3>
+            <p class="price">$<span contenteditable="true">XX</span> / mes</p>
+            <ul>
+              <li>Hasta 200 turnos</li>
+              <li>WhatsApp + Instagram</li>
+              <li>Recordatorios por WhatsApp</li>
+            </ul>
+            <a class="btn btn-outline" href="https://wa.me/5491112345678?text=Quiero%20el%20plan%20B%C3%A1sico%20de%20Flick.IA" target="_blank" rel="noopener">Elegir</a>
+          </article>
+
+          <article class="price-card featured">
+            <div class="badge">Recomendado</div>
+            <h3>Pro</h3>
+            <p class="price">$<span contenteditable="true">XX</span> / mes</p>
+            <ul>
+              <li>Hasta 500 turnos</li>
+              <li>Integración calendario</li>
+              <li>Soporte prioritario</li>
+            </ul>
+            <a class="btn btn-primary" href="https://wa.me/5491112345678?text=Quiero%20el%20plan%20Pro%20de%20Flick.IA" target="_blank" rel="noopener">Elegir</a>
+          </article>
+
+          <article class="price-card">
+            <h3>Premium</h3>
+            <p class="price">$<span contenteditable="true">XX</span> / mes</p>
+            <ul>
+              <li>Turnos ilimitados</li>
+              <li>Recordatorios SMS</li>
+              <li>Onboarding dedicado</li>
+            </ul>
+            <a class="btn btn-outline" href="https://wa.me/5491112345678?text=Quiero%20el%20plan%20Premium%20de%20Flick.IA" target="_blank" rel="noopener">Elegir</a>
+          </article>
+        </div>
+      </section>
+
+      <!-- Testimonio -->
+      <section class="testimonial container">
+        <blockquote>
+          “Desde que usamos <strong>Flick.IA</strong> agendamos un 30% más turnos.”
+          <cite>— Estética Bella</cite>
+        </blockquote>
+      </section>
+
+      <!-- CTA final -->
+      <section class="final-cta">
+        <div class="container final-cta__inner">
+          <h2>Probá Flick.IA 7 días gratis</h2>
+          <p>Aumentá tu facturación desde la primera semana.</p>
+          <a class="btn btn-inverse" href="https://wa.me/5491112345678?text=Quiero%20probar%20Flick.IA" target="_blank" rel="noopener">Escribinos por WhatsApp</a>
+        </div>
+      </section>
+    </main>
+
+    <footer id="contacto" class="footer container">
+      <p>© <span id="year"></span> Flick.IA — Todos los derechos reservados.</p>
+      <a href="mailto:hola@flick-ia.com">hola@flick-ia.com</a>
+    </footer>
+
+    <script>
+      // Año dinámico
+      document.getElementById('year').textContent = new Date().getFullYear();
+
+      // Menú móvil
+      const menuBtn = document.getElementById('menuBtn');
+      const nav = document.getElementById('nav');
+      menuBtn.addEventListener('click', () => {
+        nav.classList.toggle('open');
+      });
+
+      // Scroll suave para anclas internas
+      document.querySelectorAll('a[href^="#"]').forEach(a => {
+        a.addEventListener('click', e => {
+          const id = a.getAttribute('href').slice(1);
+          const el = document.getElementById(id);
+          if (el) {
+            e.preventDefault();
+            el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            nav.classList.remove('open');
+          }
+        });
+      });
+    </script>
+  </body>
+</html>
